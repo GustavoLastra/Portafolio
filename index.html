@@ -1,78 +1,51 @@
 <!DOCTYPE html>
-<!-- saved from url=(0097)https://storage.googleapis.com/supplemental_media/udacityu/2730818600/bootstrap-prestructure.html -->
 <html>
-<head>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <title>Portafolio</title>
-  <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script
-</head>
+  <head>
+    <meta charset="utf-8">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
   <body>
-  <!-- Modal -->
-    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
-                </div>
-                <div class="modal-body">
-                    <img class="img-responsive" src="./bootstrap-prestructure_files/1140x350" >
-                    This was my first project in this class. I learned a lot about HTML and CSS.
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+  <!--Row 0 header-->
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <img src="UdacityLogo.svg">
             </div>
-        </div>
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <img class= "img-rounded img img-responsive" src="img/Gustavo.jpg">
-        </div>
-
-        <div class="col-md-6 text-right text-uppercase">
-            <h1>Gustavo Lastra</h1>
-            <h3 >Front-end Ninja</h3>
+            <div class="col-6">
+              <h1>Gustavo Lastra</h1>
+              <h3 >Front-end Ninja</h3>
+            </div>
           </div>
-
-      </div>
-      <hr>
-    <div class="row">
-      <div class="col-md-12">
-        <img  src="./bootstrap-prestructure_files/1140x350" data-toggle="modal" data-target="#project1">
-      </div>
-    </div>
-    <div class= "row">
-      <div class="col-md-12">
-        <h2>Featured Work</h2>
-      </div>
-
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        <img src="./bootstrap-prestructure_files/555x300">
-        <h3>Appify</h3>
-        <p><a href="http://github.com/">Link to project</a></p>
-      </div>
-      <div class="col-md-6">
-        <img src="./bootstrap-prestructure_files/555x300">
-        <h3>Appify</h3>
-        <p><a href="http://github.com/">Link to project</a></p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        <img src="./bootstrap-prestructure_files/555x300">
-        <h3>Appify</h3>
-        <p><a href="http://github.com/">Link to project</a></p>
-      </div>
-      <div class="col-md-6">
-        <img src="./bootstrap-prestructure_files/555x300">
-        <h3>Appify</h3>
-        <p><a href="http://github.com/">Link to project</a></p>
-      </div>
-    </div>
-  </div>
-</body></html>
+          <hr>
+    <!--Row 1 Favorite Project-->
+          <div class="row">
+            <div class="col-12">
+              <img  src="./bootstrap-prestructure_files/1140x350">
+            </div>
+          </div>
+    <!--Row 2 mini header-->
+          <div class="row">
+            <h4>Feature Work</h4>
+          </div>
+    <!--Row 3 more projects-->
+          <div class="row">
+            <div class="col-4">
+              <img src="./bootstrap-prestructure_files/555x300">
+              <h3>Appify</h3>
+              <p><a href="http://github.com/">Link to project</a></p>
+            </div>
+            <div class="col-4">
+              <img src="./bootstrap-prestructure_files/555x300">
+              <h3>Appify</h3>
+              <p><a href="http://github.com/">Link to project</a></p>
+            </div>
+            <div class="col-4">
+              <img src="./bootstrap-prestructure_files/555x300">
+              <h3>Appify</h3>
+              <p><a href="http://github.com/">Link to project</a></p>
+            </div>
+          </div>
+        </div>
+    </body>
+    </html>
