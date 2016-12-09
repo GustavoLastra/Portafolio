@@ -1,13 +1,16 @@
 *{
     font-family: 'Lato', sans-serif;
-    //border: 1px solid red !important;
+    border: 1px solid red !important;
 }
 
-* {
+*{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+
 }
 hr {
   color: #7d97ad
@@ -16,21 +19,16 @@ img {
   max-width:100%;
   max-height:100%;
 }
-.minirow {
-  max-height: 500px;
-}
-.abajo {
-  padding-top: 10%;
-}
+
 .derecha {
   text-align:right;
 }
 .ulogo {
-  width: 20%;
-  height: 20%;
+  margin-top: 4%;
+  width: 40%;
+  height: 40%;
 }
 .fontpersonal {
-  padding-top:10%;
   color: #2d3c49;
   font-size:150%;
 }
@@ -44,12 +42,15 @@ body {
   margin-right: auto;
   margin-left: auto;
 
+
+
+
 }
 
 .row {
     width: 100%;
-
     display: flex;
+
 }
 
 .col-1 {
@@ -98,4 +99,17 @@ body {
 
 .col-12 {
     width: 100%;
+}
+.img-responsive {
+  display: block;
+  padding-right: 5%;
+  padding-left: 5%;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100% !important;
+  height: 80%;
+
+
+
+
 }

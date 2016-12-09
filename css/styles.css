@@ -1,0 +1,35 @@
+*{
+    font-family: 'Lato', sans-serif;
+    //border: 1px solid #349c63 !important;
+}
+body {
+  color: #349876;
+  font-weight: 300;
+}
+hr {
+  border: none;
+    height: 2px;
+    /* Set the hr color */
+    //color: #333; /* old IE */
+    background-color: #86BBBB; /* Modern Browsers */
+}
+.firstrow {
+  margin-top: 3%;
+}
+.text-features {
+  color: #86BBBB;
+}
+.text-thin {
+  font-weight: 100px;
+}
+.Gus {
+  width: 20%;
+  height: 20%;
+  border-radius: 15px;
+}
+.title-super {
+  font-size: 300%;
+}
+.img-rounded {
+  border-radius: 15px;
+}
