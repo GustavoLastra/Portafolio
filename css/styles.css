@@ -1,35 +1,47 @@
 *{
-    font-family: 'Lato', sans-serif;
-    //border: 1px solid #349c63 !important;
+    font-family: "Lato", sans-serif;
 }
+
 body {
   color: #349876;
   font-weight: 300;
 }
+
 hr {
   border: none;
     height: 2px;
-    /* Set the hr color */
-    //color: #333; /* old IE */
-    background-color: #86BBBB; /* Modern Browsers */
+    background-color: #868888;
 }
+
 .firstrow {
-  margin-top: 3%;
+  padding-top: 4%;
 }
+
 .text-features {
-  color: #86BBBB;
+  color: #86bbbb;
 }
+
 .text-thin {
-  font-weight: 100px;
+  font-weight: 100;
 }
+
 .Gus {
   width: 20%;
   height: 20%;
   border-radius: 15px;
 }
+
 .title-super {
   font-size: 300%;
 }
+
 .img-rounded {
   border-radius: 15px;
+}
+
+.background {
+  background-color: #eaf4fb;
+}
+.backgroundd {
+  background-color: #e5fff2;
 }
